@@ -34,6 +34,15 @@ To get started with the project, follow these steps:
 - `npm run build`: Builds the app for production.
 - `npm run lint`: Lints the codebase.
 - `npm run preview`: Previews the production build locally.
+- `npm run test`: Runs unit and component tests.
+- `npm run coverage`: Generates test coverage reports.
+
+## CI/CD Pipeline
+
+This project uses GitHub Actions for automated testing and deployment:
+
+1. **Test Phase**: Runs on every push/PR to ensure code quality.
+2. **Deploy Phase**: Automatically builds and deploys to the production server via SSH when changes are pushed to `main`.
 
 ## License
 
