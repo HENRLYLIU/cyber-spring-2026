@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Security
+*.pem
+
+# Test reports
+html-report/
+coverage/
